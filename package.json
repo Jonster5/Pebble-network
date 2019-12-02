@@ -1,26 +1,26 @@
 {
-  "name": "learn-websockets",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jonster5/Pebble-Networking.git"
-  },
-  "keywords": [
-    "Pebble"
-  ],
-  "author": "CodePebble",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jonster5/Pebble-Networking/issues"
-  },
-  "homepage": "https://github.com/Jonster5/Pebble-Networking#readme",
-  "dependencies": {
-    "websocket": "^1.0.30",
-    "ws": "^7.2.0"
-  }
+    "name": "pebble-sockets",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jonster5/Pebble-Networking.git"
+    },
+    "keywords": [
+        "pebble"
+    ],
+    "author": "CodePebbl <onlyaccelerating@gmail.com> (https://www.slidemations.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jonster5/Pebble-Networking/issues"
+    },
+    "homepage": "https://github.com/Jonster5/Pebble-Networking",
+    "dependencies": {
+        "express": "^4.17.1",
+        "websocket": "^1.0.30"
+    }
 }

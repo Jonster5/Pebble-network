@@ -15,9 +15,8 @@
             console.log("connection opened");
         }
         connection.onerror = () => console.log('connection is broked');
-        connection.onmessage = function(message) {
+        connection.onmessage = message => {
             console.log(message.data);
-            // handle incoming message
         };
     </script>
 </body>
